@@ -1,20 +1,23 @@
 import logo from './logo.svg';
 import './App.scss';
+import DemoCompo from './Example/DemoCompo';
+
+/**
+ * 
+ * 2 components: class components / function components(functions, arrow) 
+ * 
+ */
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>World shit</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Hello World</p>
+
+        {/* <DemoCompo></DemoCompo> */}
+
+        <DemoCompo />
       </header>
     </div>
   );
